@@ -2,19 +2,30 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script async src="index.js"></script>
-    <title>Todo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script async src="public/js/index.js"></script>
+  <title>Todo</title>
 </head>
 
 <body>
-    <header>HEADER</header>\
-    <div class="content">CONTENT</div>
-    <footer>FOOTER</footer>
-
+  <div class="container">
+    <header>
+      <div class="logo">Dyma Todo</div>
+    </header>
+    <div class="content">
+      <div class="todo-container">
+        <h1>Ma Todo</h1>
+        <div class="todo-form"></div>
+        <div class="todo-list"></div>
+      </div>
+    </div>
+    <footer>2011 / 2021 © Tous droits réservés</footer>
+  </div>
 </body>
 
 </html>
